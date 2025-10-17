@@ -1,10 +1,11 @@
 import React from 'react'
+import LearnUseState from './assets/Components/LearnUseState'
 
 const App = () => {
   return (
-    <div className='bg-amber-100 h-screen w-full'>
-      Hello
-    </div>
+    <>
+    <LearnUseState/>
+    </>
   )
 }
 
