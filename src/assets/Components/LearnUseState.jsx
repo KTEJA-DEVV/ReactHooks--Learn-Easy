@@ -3,10 +3,11 @@ import React, { useState } from 'react'
 const LearnUseState = () => {
   const [count,setCount]=useState(0)
   const handleIncrement=()=>{
-    setCount(count+1)
+    setCount(count=>count+1)
+    
   }
   const handleDecrement=()=>{
-    setCount(count-1)
+    setCount(count=>count-1)
   }
   return (
     <div className='bg-blue-100 justify-center items-center h-screen w-full flex flex-col'>
