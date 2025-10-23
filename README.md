@@ -11,3 +11,9 @@ In simple words — it helps your app remember values and update the UI when tho
 <p>The useEffect hook in React lets you run code after the component renders — like fetching data, updating the DOM, or setting up timers.
 
 In simple words — it’s used to handle side effects in your component (things that happen outside the normal rendering).</p>
+
+********************************************************************
+<h1>UseRef</h1>
+<p>useRef is react hook allows use to create immutable variables, which will not re-render the component</p>
+
+*******************************************************************
