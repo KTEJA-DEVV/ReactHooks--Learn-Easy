@@ -1,11 +1,13 @@
 import React from 'react'
-import LearnUseState from './assets/Components/LearnUseState'
-import LearnuseEffect from './assets/Components/LearnuseEffect'
+import LearnuseEffect from './assets/Components/UseEffect/LearnuseEffect'
+import Ex1 from './assets/Components/Usestate/Ex1'
+import Ex2 from './assets/Components/Usestate/Ex2'
 
 const App = () => {
   return (
     <>
-    <LearnuseEffect/>
+    
+    <Ex2/>
     </>
   )
 }
