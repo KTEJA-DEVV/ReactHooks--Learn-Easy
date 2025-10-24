@@ -21,3 +21,9 @@ In simple words — it’s used to handle side effects in your component (things
 <p>useMemo is a React Hook that helps you optimize performance by memoizing (caching)(Memoizing means storing the result of a function call so that if the same inputs occur again, the function doesn’t need to run again — it just returns the stored result.) the result of a computation — so React doesn’t recompute it every render unless its dependencies change.</p>
 <p>useMemo(cb,[d])</p>
 ***********************************************************************
+<h1>useCallback</h1>
+<p>useCallback is a React Hook that returns a memoized (cached) version of a function — it only changes when one of its dependencies changes.</p>
+<p>useMemo:-used to return memoized value use for expensive calculations ex :filtering ,Sorting</p>
+<p>useCallback-used to return memoized function use for children re-renders ex:passing props</p>
+
+*************************************************************************

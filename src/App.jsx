@@ -5,11 +5,12 @@ import ExE1 from './assets/Components/UseEffect/ExE1'
 import ExR1 from './assets/Components/UseRef/ExR1'
 import ExR2 from './assets/Components/UseRef/ExR2'
 import ExUseMemo from './assets/Components/ExUseMemo'
+import UCex1 from './assets/Components/useCallback/UCex1'
 
 const App = () => {
   return (
     <>
-    <ExUseMemo/>
+    <UCex1/>
     
     </>
   )
