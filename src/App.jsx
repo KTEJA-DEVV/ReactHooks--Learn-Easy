@@ -6,11 +6,12 @@ import ExR1 from './assets/Components/UseRef/ExR1'
 import ExR2 from './assets/Components/UseRef/ExR2'
 import ExUseMemo from './assets/Components/ExUseMemo'
 import UCex1 from './assets/Components/useCallback/UCex1'
+import ExpenseTracker from './Projects/ExpenseTracker'
 
 const App = () => {
   return (
     <>
-    <UCex1/>
+    <ExpenseTracker/>
     
     </>
   )
