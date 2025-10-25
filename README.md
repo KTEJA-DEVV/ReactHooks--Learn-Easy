@@ -27,3 +27,6 @@ In simple words — it’s used to handle side effects in your component (things
 <p>useCallback-used to return memoized function use for children re-renders ex:passing props</p>
 
 *************************************************************************
+<h1>useContect</h1>
+<p>useContext is the react hook that allows you access data from any componenet without explicitly passing down through props at every level</p>
+**************************************************************************

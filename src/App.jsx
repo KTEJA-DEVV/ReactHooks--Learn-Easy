@@ -7,11 +7,15 @@ import ExR2 from './assets/Components/UseRef/ExR2'
 import ExUseMemo from './assets/Components/ExUseMemo'
 import UCex1 from './assets/Components/useCallback/UCex1'
 import ExpenseTracker from './Projects/ExpenseTracker'
+import Todolist from './Projects/Todolist'
+import Profile from './assets/Components/useContext/Profile'
+import Footer from './assets/Components/useContext/Footer'
 
 const App = () => {
   return (
     <>
-    <ExpenseTracker/>
+    <Profile/>
+    <Footer/>
     
     </>
   )
