@@ -5,7 +5,7 @@ import App from './App.jsx'
 import ContextProvider from './assets/Components/useContext/AppContext.jsx'
 
 createRoot(document.getElementById('root')).render(
-  <ContextProvider><App /></ContextProvider>
+  <App />
     
   
 )

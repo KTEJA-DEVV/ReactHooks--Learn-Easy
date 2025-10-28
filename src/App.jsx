@@ -10,12 +10,12 @@ import ExpenseTracker from './Projects/ExpenseTracker'
 import Todolist from './Projects/Todolist'
 import Profile from './assets/Components/useContext/Profile'
 import Footer from './assets/Components/useContext/Footer'
+import Usereducerhook from './assets/Components/Usereducerhook'
 
 const App = () => {
   return (
     <>
-    <Profile/>
-    <Footer/>
+    <Usereducerhook/>
     
     </>
   )

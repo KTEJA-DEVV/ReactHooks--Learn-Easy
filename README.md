@@ -29,4 +29,8 @@ In simple words — it’s used to handle side effects in your component (things
 *************************************************************************
 <h1>useContect</h1>
 <p>useContext is the react hook that allows you access data from any componenet without explicitly passing down through props at every level</p>
-**************************************************************************
+<p>
+************************************************************************
+<h1>useReducer</h>
+<p>is a React Hook used to manage complex state logic in a component — especially when the state depends on multiple actions or transitions.
+It’s an alternative to useState and is similar in concept to Redux reducers.</p>
